@@ -1,0 +1,53 @@
+#canvas {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-300px, -300px);
+    border: 1px solid #aaa;
+}
+
+#control {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#control div {
+    width: 30px;
+    height: 30px;
+}
+
+#control button {
+    background-color: bisque;
+    border: 1px solid #ccc;
+}
+
+#control button:hover {
+    transition: all 1s;
+    background-color: aquamarine;
+}
+
+#black_btn {
+    background-color: black;
+}
+
+#green_btn {
+    background-color: green;
+}
+
+#red_btn {
+    background-color: red;
+} 
+
+#orange_btn {
+    background-color: orange;
+} 
+
+#yellow_btn {
+    background-color: yellow;
+}
+
+.selected {
+    border:3px solid plum;
+}
